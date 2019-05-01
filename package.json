@@ -3,9 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^3.9.3",
+    "@material-ui/icons": "^3.0.2",
+    "@material-ui/lab": "^3.0.0-alpha.30",
+    "@material-ui/styles": "^3.0.0-alpha.10",
+    "animated": "^0.2.2",
+    "axios": "^0.18.0",
     "react": "^16.8.6",
+    "react-beautiful-dnd": "^11.0.2",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.0"
+    "react-player": "^1.11.0",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "3.0.0",
+    "react-transition-group": "^4.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,5 +37,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@becode/eslint-config": "^0.4.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-unicorn": "^8.0.2",
+    "prettier": "^1.17.0"
   }
 }
